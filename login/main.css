@@ -1,0 +1,120 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+div.header {
+  border-top: 20px solid #00cccc;
+  background-color: white;
+  height: 100px;
+  border-bottom: 1px solid lightgrey;
+}
+
+img.header-logo {
+  padding-top: 15px;
+  width: 150px;
+  height: 80px;
+  border-radius: 25%;
+  position: relative;
+  left: 25%;
+  display: inline-block;
+}
+
+a.login {
+  display: inline-block;
+  position: relative;
+  right: 25%;
+  color: #00cccc;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding-top: 35px;
+  float: right;
+}
+
+a.login:hover {
+  color: #00e6e6;
+  text-decoration: underline;
+}
+
+div.content-header {
+  margin: 0;
+  padding: 0;
+  background-image: url("header-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 550px;
+}
+
+h1.header-title {
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #00e6e6;
+  font-size: 3em;
+  letter-spacing: -3px;
+  font-weight: 100;
+}
+p#content-sub {
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 100;
+  font-size: 2.2em;
+  padding-top: 20px;
+}
+
+a.signup-button {
+  background-color: #00cccc;
+  position: relative;
+  top: 30px;
+  left: 42.5%;
+  font-size: 3em;
+  padding: 8px;
+  border-radius: 10%;
+  color: white;
+  text-decoration: none;
+}
+
+a.signup-button:hover{
+  color: #f2f2f2;
+  background-color: #00b3b3;
+}
+
+div.customer-testimonial{
+  margin-top: 100px;
+  background-image: url("http://focusplanner.co/images/topo-map-bg-1.png");
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 100px;
+}
+
+p#testimonial {
+  font-size: 2.5em;
+  font-weight: 100;
+  text-align: center;
+}
+
+p#customer {
+  position: relative;
+  left: 75%;
+  line-height: normal;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+a#customer-reference{
+  color: #00cccc;
+  text-decoration: none;
+}
+
+a#customer-reference:hover {
+  color: #00e6e6;
+  text-decoration: underline;
+}
