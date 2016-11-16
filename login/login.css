@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300|Titillium+Web:800');
+/*
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+div.login-form {
+  position: relative;
+  left: 45%;
+}
+
+p#email{
+  font-family: 'Rubik', sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.4em;
+  color: white;
+}
+p#email-input {
+  display: inline-block;
+}
+
+p#password{
+  font-family: 'Rubik', sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 1.4em;
+  color: white;
+}
+p#password-input {
+  display: inline-block;
+}
+
+a#login-button {
+  position: relative;
+  font-size: 1.4em;
+  color: white;
+  background-color: #00cccc;
+  padding: 20px;
+  border-radius: 5%;
+  left: 5%;
+  top: 15px;
+  text-decoration: none;
+}
+
+a#login-button:hover {
+  text-decoration: underline;
+  color: lightgrey;
+  background-color: #00b3b3;
+}
