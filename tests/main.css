@@ -18,6 +18,8 @@ for example if I had a link style that I like, I can do the following:
 
 this way I can re-use the #custom-link style on different anchor elements while using the class to do other things that are not
 included in the #custom-link style.
+
+Repeatedly using styles like the #custom-link one above will shorten down the CSS file making the file size smaller.
 */
 
 .header {

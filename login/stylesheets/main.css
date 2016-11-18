@@ -18,6 +18,7 @@ div.header {
   background-color: white;
   height: 100px;
   border-bottom: 1px solid lightgrey;
+  width: 100%;
 }
 
 img.header-logo {
@@ -26,21 +27,21 @@ img.header-logo {
   height: 80px;
   border-radius: 25%;
   position: relative;
-  left: 25%;
+  left: 20%;
   display: inline-block;
 }
 
 a.login {
   display: inline-block;
   position: relative;
-  right: 25%;
+  right: -52%;
   color: #00cccc;
   text-decoration: none;
   font-size: 2em;
   font-weight: 100;
   margin: 0;
   padding-top: 35px;
-  float: right;
+  bottom: 20px;
 }
 
 a.login:hover {
@@ -51,14 +52,14 @@ a.login:hover {
 a.signup {
   display: inline-block;
   position: relative;
-  right: 10%;
+  right: -55%;
   color: #00cccc;
   text-decoration: none;
   font-size: 2em;
   font-weight: 100;
   margin: 0;
   padding-top: 35px;
-  float: right;
+  bottom: 20px;
 }
 
 a.signup:hover{
