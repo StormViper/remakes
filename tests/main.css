@@ -1,0 +1,35 @@
+/*
+Testing methods for using less code in the CSS by using the id off 'align-center' to be used in different elements such as;-
+p, h1-h6, b etc...
+
+instead of writing out a new class and/or ID for an element just too align it, using an existing ID will make this more efficent
+
+for example if I had a link style that I like, I can do the following:
+
+#custom-link{
+  color: #00cccc;
+  text-decoration: none;
+}
+
+#custom-link:hover{
+  color: #00e6e6;
+  text-decoration: underline;
+}
+
+this way I can re-use the #custom-link style on different anchor elements while using the class to do other things that are not
+included in the #custom-link style.
+*/
+
+.header {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.sub-header {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+#align-center{
+  text-align:center;
+}

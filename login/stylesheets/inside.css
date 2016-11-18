@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300|Titillium+Web:800');
+/*
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+a.logout {
+  display: inline-block;
+  position: relative;
+  right: 25%;
+  color: #00cccc;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding-top: 35px;
+  float: right;
+}
+
+a.logout:hover{
+  color: #00e6e6;
+  text-decoration: underline;
+}

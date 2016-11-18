@@ -10,4 +10,5 @@ p#confirm-password {
   margin-right: 10px;
   font-size: 1.4em;
   color: white;
+  position: relative;
 }

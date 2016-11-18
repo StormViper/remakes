@@ -6,7 +6,9 @@ font-family: 'Rubik', sans-serif;
 
 div.login-form {
   position: relative;
-  left: 45%;
+  left: 25%;
+  width: 45%;
+  text-align: center;
 }
 
 p#email{
@@ -15,9 +17,11 @@ p#email{
   margin-right: 10px;
   font-size: 1.4em;
   color: white;
+  position: relative;
 }
 p#email-input {
   display: inline-block;
+  margin-left: 25%;
 }
 
 p#password{
