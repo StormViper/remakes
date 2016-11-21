@@ -27,4 +27,18 @@ $("#project-button").click(function(){
   }
 });
 
+$("#email-send").click(function() {
+  $.ajax({
+    type: "POST",
+    url: "http://0.0.0.0:8000/email.php",
+    data: { first_name: $("#first-name").val(),
+            last_name:  $("#last-name").val(),
+            email:      $("#email").val(),
+            phone:      $("#phone").val(),
+            message:    $("#message").val() }
+  }).done(function( msg ) {
+    alert( "Data saved: " + msg );
+  });
+});
+
 });
